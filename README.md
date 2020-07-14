@@ -128,3 +128,6 @@ title.addEventListener("click",handleClick);
 
 실무 개발자들은 실무에서 코딩을 할때는 `==`보다는 `===`를 사용해야 한다고 강하게 추천합니다. 이유는 역시 조건문이나, 좀더 복잡한 상황의 프로그래밍에서 차이가 나온다고 하네요.
 
+
+만약 풀 안되면 (unrelated history)이걸로 해결하자
+git pull origin (branchname) --allow-unrelated-histories
