@@ -1,13 +1,49 @@
+.btn {
+    cursor: pointer;
+}
+
 body {
-    background-color: peru;
+   color:#34495e;
+   background-color: #636e72;
 }
 
-h1 {
-    color: white;
-    transition: 0.3s;
+.clicked {
+    color: #7f8c8d;
 }
 
-footer{
-    padding-top: 700px;
-    padding-left: 50px;
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display:block;
+}
+
+
+
+.bgImage
+{
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+   height: 100%;
+   top:0;
+   left:0;
+   animation: fadeIn .5s;
+}
+
+footer
+{
+    padding-top:550px ;
+}
+
+@keyframes fadeIn
+{
+    from{
+        opacity:0;
+    }to
+    {
+        opacity: 1;
+    }
 }
